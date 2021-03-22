@@ -1,4 +1,4 @@
-package com.paypal.bfs.test.employeeserv.impl;
+package com.paypal.bfs.test.employeeserv.functest;
 
 import com.paypal.bfs.test.employeeserv.api.EmployeeResource;
 import com.paypal.bfs.test.employeeserv.api.model.Address;
@@ -8,7 +8,6 @@ import com.paypal.bfs.test.employeeserv.domain.EmployeeEntity;
 import com.paypal.bfs.test.employeeserv.repository.EmployeeRepository;
 import java.time.LocalDateTime;
 import java.util.Optional;
-import javax.persistence.RollbackException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

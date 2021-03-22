@@ -56,6 +56,9 @@
                     <targetPackage>com.paypal.bfs.test.employeeserv.api.model</targetPackage>
                     <useCommonsLang3>true</useCommonsLang3>
                     <includeHashcodeAndEquals>false</includeHashcodeAndEquals>
+                    <includeJsr303Annotations>true</includeJsr303Annotations>
+                    <includeAdditionalProperties>false</includeAdditionalProperties>
+                    <dateType>java.time.LocalDate</dateType>
                 </configuration>
                 <executions>
                     <execution>
