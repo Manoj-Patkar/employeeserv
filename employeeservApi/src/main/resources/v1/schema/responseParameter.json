@@ -1,0 +1,19 @@
+{
+  "title": "Response Parameter",
+  "description": "Common Response Object",
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "type": "string"
+    },
+    "reasonCode": {
+      "type": "string"
+    },
+    "additionalInfo": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

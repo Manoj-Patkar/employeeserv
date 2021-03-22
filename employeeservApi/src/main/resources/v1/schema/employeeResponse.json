@@ -1,0 +1,17 @@
+{
+  "title": "Employee Response",
+  "description": "Employee Response",
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "type": "string"
+    },
+    "employee_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "timestamp",
+    "employee_id"
+  ]
+}
